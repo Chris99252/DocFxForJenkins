@@ -54,6 +54,11 @@ namespace DocFxForJenkinsDemo.Controllers
 
         //
         // GET: /Account/Login
+        /// <summary>
+        /// 登入頁面
+        /// </summary>
+        /// <param name="returnUrl">要進入的 URL</param>
+        /// <returns>登入表單輸入頁面</returns>
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
