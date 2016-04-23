@@ -17,6 +17,10 @@ namespace DocFxForJenkinsDemo.Controllers
             return View();
         }
 
+        /// <summary>
+        /// 關於我們
+        /// </summary>
+        /// <returns>關於頁面</returns>
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -24,6 +28,10 @@ namespace DocFxForJenkinsDemo.Controllers
             return View();
         }
 
+        /// <summary>
+        /// 聯絡我們
+        /// </summary>
+        /// <returns>聯絡頁面</returns>
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
