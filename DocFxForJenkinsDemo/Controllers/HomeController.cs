@@ -8,6 +8,10 @@ namespace DocFxForJenkinsDemo.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// 入口網頁
+        /// </summary>
+        /// <returns>首頁</returns>
         public ActionResult Index()
         {
             return View();
